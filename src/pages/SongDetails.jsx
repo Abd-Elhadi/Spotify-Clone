@@ -5,9 +5,9 @@
 /* eslint-disable indent */
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import {DetailsHeader, Error, Loader, RelatedSongs} from '../components';
-import {setActiveSong, playPause} from '../redux/features/playerSlice';
-import {useGetSongDetailsQuery, useGetSongRelatedQuery} from '../redux/services/shazamCore';
+import { DetailsHeader, Error, Loader, RelatedSongs} from '../components';
+import { setActiveSong, playPause} from '../redux/features/playerSlice';
+import { useGetSongDetailsQuery, useGetSongRelatedQuery} from '../redux/services/shazamCore';
 
 // eslint-disable-next-line arrow-body-style
 const SongDetails = () => {
@@ -41,7 +41,7 @@ const SongDetails = () => {
                 <h2 className="text-white text-3xl font-bold">Lyrics:</h2>
                 <div className="mt-5">
                     {songData?.sections[1].type === 'LYRICS' ? songData.sections[1].text.map((line, index) => (
-                        <p className="text-gray-400 text-base my-1">{ line }</p>
+                        <p key={`lyrics-${line}-${index}`} className="text-gray-400 text-base my-1">{ line }</p>
                     )) : <p className="text-gray-400 text-base my-1">Sorry no lyrics found!</p>}
                 </div>
             </div>
