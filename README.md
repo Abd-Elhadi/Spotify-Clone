@@ -97,3 +97,6 @@ To set up a development environment, please follow these steps:
 ![aroundyou](src/assets/screenshots/aroundyou.png?raw=true 'Around You')
 ![artistdetails](src/assets/screenshots/artistdetailspage.png?raw=true 'Artist Details')
 ![searchpage](src/assets/screenshots/searchpage.png?raw=true 'Search Page')
+
+## Author
+[Abdelhadi Omar](mailto:abdelhadioumar@gmail.com?subject=[GitHub]%20Lyriks)
