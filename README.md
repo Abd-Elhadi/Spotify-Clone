@@ -1,6 +1,6 @@
 # Lyrics
 
-Lyrics is an elegant React.js Music Application.
+Lyrics is an elegant React.js Music Application. Built with React, Redux, Tailwind and CSS.
 
 ## Features
 
@@ -8,6 +8,8 @@ Lyrics is an elegant React.js Music Application.
 - Control playback (pause, volume, shuffle, etc).
 - Lyrics display.
 - Search tracks.
+- Display related songs.
+- Display related songs by the same artist.
 
 ## Try it out
 
