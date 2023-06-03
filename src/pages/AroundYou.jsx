@@ -26,7 +26,7 @@ const AroundYou = () => {
     
     useEffect(() => {
         // at_40D8ERKpxhmgko7KAB0jC3UBobG9t
-        axios.get(`https://geo.ipify.org/api/v2/country?apiKey=at_40D8ERKpxhmgko7KAB0jC3UBobG9t`)
+        axios.get(`https://geo.ipify.org/api/v2/country?apiKey=${import.meta.env.VITE_GEO_API_KEY}`)
             // .then((res) => setCountry(res?.data?.location?.country))
             // .then((res) => setCountry(res?.data?.location?.country === -1 ? countries[Math.random() * countries.length] : res?.data?.location?.country))
             .then((res) => setCountry('EG'))

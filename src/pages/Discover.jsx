@@ -15,7 +15,7 @@ import { selectGenreListId } from '../redux/features/playerSlice';
 
 const Discover = () => {
     const dispatch = useDispatch();
-    const {activeSong, isPlaying, genreListId } = useSelector((state) => state.player);
+    const { activeSong, isPlaying, genreListId } = useSelector((state) => state.player);
     // eslint-disable-next-line no-unused-vars
     const { data, isFetching, error } = useGetSongsByGenreQuery(genreListId || 'POP');
     
