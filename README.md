@@ -54,13 +54,13 @@ To set up a development environment, please follow these steps:
 1. Clone the repo
 
    ```shell
-    git clone https://github.com/Abd-Elhadi/Spotify-Clone
+    git clone https://github.com/Abd-Elhadi/Spotify-Clone.get
    ```
 
 2. Change directory to the project directory
 
     ```shell
-    cd project1_team4_repository
+    cd Spotify-Clone
     ```
 
 3. Install the dependencies
@@ -74,8 +74,10 @@ To set up a development environment, please follow these steps:
     If you don't get an error, you are ready to start development.
 4. You will have to define a '.env' file and         
    set the following variables:
+   ```
    VITE_SHAZAM_CORE_RAPID_API_KEY='YOU_SHAZAM_CORE_RAPID_API_KEY'
    VITE_GEO_API_KEY='YOUGEO_API_KEY'
+   ```
 
 5. Run the app
    
