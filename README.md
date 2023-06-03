@@ -1,6 +1,17 @@
-# Project Lyrics
+# Lyrics
 
-An elegant React.js Music Application. 
+Lyrics is an elegant React.js Music Application.
+
+## Features
+
+- Play audio tracks.
+- Control playback (pause, volume, shuffle, etc).
+- Lyrics display.
+- Search tracks.
+
+## Try it out
+
+https://my-spotifyclone-app.netlify.app/
 
 ## System Requirements
 
@@ -61,8 +72,12 @@ To set up a development environment, please follow these steps:
     If you get an error, please check the console for more information.
 
     If you don't get an error, you are ready to start development.
+4. You will have to define a '.env' file and         
+   set the following variables:
+   VITE_SHAZAM_CORE_RAPID_API_KEY='YOU_SHAZAM_CORE_RAPID_API_KEY'
+   VITE_GEO_API_KEY='YOUGEO_API_KEY'
 
-4. Run the app
+5. Run the app
    
     ```shell
     npm run dev
@@ -71,3 +86,10 @@ To set up a development environment, please follow these steps:
     Project will be running in the browser.
 
     Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Screenshots
+
+![discover](src/assets/screenshots/discoverpage.png?raw=true 'Discover')
+![aroundyou](src/assets/screenshots/aroundyou.png?raw=true 'Around You')
+![artistdetails](src/assets/screenshots/artistdetailspage.png?raw=true 'Artist Details')
+![searchpage](src/assets/screenshots/searchpage.png?raw=true 'Search Page')
